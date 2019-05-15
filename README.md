@@ -15,6 +15,7 @@ A tool use c to analyze redis rdb file, and use lua to handle.
 
 #### 2. How to use?
 ```shell
+$ sudo apt-get install libreadline-dev 
 $ cd rdbtools/src
 $ make
 $ ./rdbtools -f ../tests/dump2.4.rdb -s ../scripts/example.lua
